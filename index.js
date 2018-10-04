@@ -21,7 +21,7 @@ function viewCart() {
     string = "Your shopping cart is empty"
   }
   else {
-    string = "In your cart, yuo have"
+    string = "In your cart, you have "
     for (var i = 0; i < cart.length; i++) {
       if (i === 0) {
         string += `${cart[i].itemName} at $${cart[i].itemPrice}`
