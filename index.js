@@ -51,7 +51,7 @@ function removeFromCart(item) {
   while(i < cart.length && item[i].itemName != item) {
     i++
     }
-  if (i === length) {
+  if (i === cart.length) {
     return "That item is not in your cart."
   }
   else {
