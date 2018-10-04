@@ -59,7 +59,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   var string
-  if (cardNumber === null || "") {
+  if (cardNumber === null || cardNumber === "") {
     string = "Sorry, we don't have a credit card on file for you."
   }
   else {
