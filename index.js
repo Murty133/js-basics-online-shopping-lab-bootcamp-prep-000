@@ -60,7 +60,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   var string
   if (cardNumber === "") {
-    string = "Sorry, we don't have a credit card on file for you"
+    string = "Sorry, we don't have a credit card on file for you."
   }
   else {
     string = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
