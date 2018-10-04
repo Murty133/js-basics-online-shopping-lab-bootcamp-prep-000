@@ -46,16 +46,14 @@ function total() {
   return total
 }
 
-/*
 function removeFromCart(item) {
   var i = 0
-  while(i < cart.length) {
+  while(i < cart.length && item[i].itemName !=== item) {
     if (item[i].itemName === item) {
       cart.splice(i, 1, "")
     }
   }
 }
-*/
 
 function placeOrder(cardNumber) {
   var string
