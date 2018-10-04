@@ -43,6 +43,7 @@ function total() {
   return total
 }
 
+/*
 function removeFromCart(item) {
   var i = 0
   while(i < cart.length) {
@@ -51,6 +52,7 @@ function removeFromCart(item) {
     }
   }
 }
+*/
 
 function placeOrder(cardNumber) {
   var string
