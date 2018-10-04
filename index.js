@@ -48,10 +48,15 @@ function total() {
 
 function removeFromCart(item) {
   var i = 0
-  while(i < cart.length && item[i].itemName !=== item) {
-    if (item[i].itemName === item) {
-      cart.splice(i, 1, "")
+  while(i < cart.length && item[i].itemName != item) {
+    i++
     }
+  if (i === length) {
+    return "That item is not in your cart."
+  }
+  else {
+    cart.splice(i, 1)
+    return cart
   }
 }
 
